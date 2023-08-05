@@ -7,6 +7,9 @@ function fetchWeather(cityName) {
     fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
+            if(data.message === 'city not found'){
+                return;
+            }
             const weatherData = {
                 city: data.name,
                 temperature: Math.round(data.main.temp),

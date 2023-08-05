@@ -93,7 +93,7 @@ button {
     gap: 20px;
 }
 .right-sec{
-    background: url("img/mist.png") left bottom/cover no-repeat;
+    background: url("img/sunny.png") left bottom/cover no-repeat;
     background-size: 100%;
     height: 125px;
     width: 125px;
@@ -112,7 +112,9 @@ button {
 P{
     margin: 0px;
 }
-
+.Wind{
+    background: url("img/wind.png") left bottom/cover no-repeat;
+}
 .Mist{
     background: url("img/mist.png") left bottom/cover no-repeat;
 }
@@ -122,7 +124,9 @@ P{
 .Rain{
     background: url("img/rain.png") left bottom/cover no-repeat;
 }
-
+.Sunny{
+    background: url("img/sunny.png") left bottom/cover no-repeat;
+}
 
 
 .searchbar{
