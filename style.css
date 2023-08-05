@@ -173,6 +173,7 @@ P{
     .input-container {
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom: 20px;
     }
 
     input[type="text"] {
@@ -181,7 +182,7 @@ P{
       
     }
     .weather-cards {
-        padding: 20px; 
+        padding: 0px; 
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
@@ -197,5 +198,9 @@ P{
     }
     .searchbar .fa-magnifying-glass{
         margin-left: 10px;
+    }
+    .weather-card{
+        width: 100%;
+        padding: 0;
     }
 }
